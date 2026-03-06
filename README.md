@@ -62,6 +62,67 @@ A professional needed to run **SketchUp** and **V-Ray** but her local machine co
 **Key skills demonstrated:**
 `VM sizing` `Cost optimization` `Latency awareness` `GPU extension configuration` `Quota management` `Azure Support` `End-user delivery`
 
+### 📸 Project Walkthrough (Step by Step)
+
+#### Step 1: The Challenge – Quota Management ⚠️
+*Before I could even create the VM, I hit my first real-world Azure obstacle.*
+
+| Step | Screenshot | Description |
+|------|------------|-------------|
+| **Quota Request** | ![Quota Request](screenshots/12-quota-request.png) | Created a support ticket to increase GPU quota (NVads A10 v5 series) |
+| **Request Details** | ![Request Details](screenshots/13-quota-request-details.png) | Severity C, email contact, explained the professional use case |
+| **Request Verification** | ![Request Verification](screenshots/14-quota-request-verify.png) | Final verification before submitting |
+| **Confirmation Email** | ![Confirmation Email](screenshots/15-quota-confirmation-email.png) | Request successfully submitted to Azure Support |
+| **Quota Approved** 🎉 | ![Quota Approved](screenshots/16-quota-approved.png) | **Approved in less than 24 hours!** |
+
+---
+
+#### Step 2: VM Creation & Configuration 🖥️
+*With the quota approved, I could now deploy the solution.*
+
+| Step | Screenshot | Description |
+|------|------------|-------------|
+| **VM Overview** | ![VM Overview](screenshots/01-vm-overview.png) | VM `VmSketchupVray` running Windows 11 Pro in North Europe region |
+| **VM Size Selection** | ![VM Size](screenshots/02-vm-size.png) | Selected **Standard NV6ads A10 v5** with NVIDIA A10 GPU (6 vCPUs, 55 GiB RAM) — perfect for 3D rendering workloads |
+| **OS Configuration** | ![OS Config](screenshots/03-os-config.png) | Windows 11 Pro with administrator credentials configured |
+| **Security Settings** | ![Security](screenshots/04-security.png) | Enabled **Trusted Launch**, **Secure Boot**, and **vTPM** for enhanced security |
+| **Disk Configuration** | ![Disk](screenshots/05-disk.png) | 256 GiB Premium SSD LRS for OS disk |
+
+---
+
+#### Step 3: Network & Security Setup 🔌
+*Configuring secure access and cost optimization.*
+
+| Step | Screenshot | Description |
+|------|------------|-------------|
+| **Network Interface** | ![Network](screenshots/06-network.png) | VM attached to `VmSketchupVray-vnet` with private IP configuration |
+| **NSG Rules** | ![NSG](screenshots/07-nsg.png) | Configured **RDP rule (port 3389)** for secure remote access |
+| **Auto-shutdown** | ![Auto-shutdown](screenshots/08-autoshutdown.png) | Scheduled auto-shutdown at **23:00 (UTC+1)** to optimize costs — user only pays when working |
+
+---
+
+#### Step 4: GPU Driver Installation 🎮
+*Installing NVIDIA drivers for 3D acceleration.*
+
+| Step | Screenshot | Description |
+|------|------------|-------------|
+| **NVIDIA Extension** | ![Extension](screenshots/09-extension.png) | Installed **NvidiaGpuDriverWindows** extension directly from Azure Portal |
+| **Extension Details** | ![Extension Details](screenshots/10-extension-details.png) | Extension version 1.10.0.9 — **Provisioning succeeded** |
+| **Extension Info** | ![Extension Info](screenshots/11-extension-info.png) | Microsoft's official extension for NVIDIA GPU drivers on N-series VMs |
+
+---
+
+#### Step 5: Final Delivery & Result 🏁
+*Delivering the solution to the end user.*
+
+| Step | Screenshot | Description |
+|------|------------|-------------|
+| **VM Properties** | ![Properties](screenshots/17-vm-properties.png) | VM fully configured and running |
+| **RDP Connection** | ![RDP](screenshots/18-rdp.png) | Remote desktop credentials ready for user |
+| **Connected Session** | ![Connected](screenshots/19-connected.png) | Successfully connected to the VM |
+| **SketchUp Running** 🏆 | ![SketchUp](screenshots/20-sketchup.png) | **SketchUp running on Azure VM** — mission accomplished! |
+
+---
 **Result:** ✅ The user now runs professional 3D software seamlessly from any device, at optimized cost
 
 -----
