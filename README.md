@@ -83,7 +83,6 @@ A professional needed to run **SketchUp** and **V-Ray** but her local machine co
 | Step | Screenshot | Description |
 |------|------------|-------------|
 | **VM Overview** | ![VM Overview](screenshots/01-vm-overview.png) | VM `VmSketchupVray` running Windows 11 Pro in North Europe region |
-| **VM Size Selection** | ![VM Size](screenshots/02-vm-size.png) | Selected **Standard NV6ads A10 v5** with NVIDIA A10 GPU (6 vCPUs, 55 GiB RAM) — perfect for 3D rendering workloads |
 | **OS Configuration** | ![OS Config](screenshots/03-os-config.png) | Windows 11 Pro with administrator credentials configured |
 | **Security Settings** | ![Security](screenshots/04-security.png) | Enabled **Trusted Launch**, **Secure Boot**, and **vTPM** for enhanced security |
 | **Disk Configuration** | ![Disk](screenshots/05-disk.png) | 256 GiB Premium SSD LRS for OS disk |
