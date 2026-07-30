@@ -19,7 +19,7 @@
 |Badge|Certification                             |Score        |Year|
 |-----|------------------------------------------|-------------|----|
 |✅    |**AZ-900** — Microsoft Azure Fundamentals |**952/1000** |2026|
-|🔄    |**AZ-104** — Microsoft Azure Administrator|*828/100*|2026|
+|✅    |**AZ-104** — Microsoft Azure Administrator|*828/100*|2026|
 
 -----
 
@@ -126,7 +126,7 @@ A professional needed to run **SketchUp** and **V-Ray** but her local machine co
 
 -----
 
-*More projects coming soon as I progress through AZ-104…*
+*More projects coming soon as I progress through AZ-305…*
 
 -----
 
