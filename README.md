@@ -18,8 +18,8 @@
 
 |Badge|Certification                             |Score        |Year|
 |-----|------------------------------------------|-------------|----|
-|✅    |**AZ-900** — Microsoft Azure Fundamentals |**952/1000** |2026|
-|✅    |**AZ-104** — Microsoft Azure Administrator|*828/100*|2026|
+|✅    |**AZ-900** — Microsoft Azure Fundamentals |**952/1000** |2021|
+|✅    |**AZ-104** — Microsoft Azure Administrator|*828/100*|2022|
 
 -----
 
