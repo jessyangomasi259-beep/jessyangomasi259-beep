@@ -9,7 +9,7 @@
 - 🎯 Aspiring **Azure Cloud Administrator** focused on real-world deployments
 - ☁️ Microsoft Azure enthusiast — from VMs to networking and identity management
 - 🔧 I solve concrete problems with cloud technology
-- 📚 Currently preparing for **AZ-104** (Microsoft Azure Administrator)
+- 📚 Currently preparing for **AZ-305** (Microsoft Azure Solutions Architect Expert)
 - 🚀 Self-taught, driven by results and continuous learning
 
 -----
@@ -19,7 +19,7 @@
 |Badge|Certification                             |Score        |Year|
 |-----|------------------------------------------|-------------|----|
 |✅    |**AZ-900** — Microsoft Azure Fundamentals |**952/1000** |2026|
-|🔄    |**AZ-104** — Microsoft Azure Administrator|*In progress*|2026|
+|🔄    |**AZ-104** — Microsoft Azure Administrator|*828/100*|2026|
 
 -----
 
@@ -133,7 +133,7 @@ A professional needed to run **SketchUp** and **V-Ray** but her local machine co
 ## 📈 My Learning Path
 
 ```
-AZ-900 ✅ (952/1000) → AZ-104 🔄 → AZ-305 🎯 → Real-world projects 🚀
+AZ-900 ✅  → AZ-104 ✅ → AZ-305 🎯 → Real-world projects 🚀
 ```
 
 -----
